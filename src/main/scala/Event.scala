@@ -32,5 +32,4 @@ case class EventWrapper(event: Event)
 object EventWrapper {
   implicit val toRecord: ToRecord[EventWrapper] = ToRecord[EventWrapper]
   implicit val fromRecord: FromRecord[EventWrapper] = FromRecord[EventWrapper]
-  implicit val toSchema: ToSchema[EventWrapper] = ToSchema[EventWrapper]
 }

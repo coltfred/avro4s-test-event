@@ -25,7 +25,7 @@ scalacOptions := Seq(
 
   )
 
-libraryDependencies ++= Seq("com.sksamuel.avro4s" %% "avro4s-core" % "1.9.0")
+libraryDependencies ++= Seq("com.sksamuel.avro4s" %% "avro4s-core" % "2.0.3")
 
 // HACK: without these lines, the console is basically unusable,
 // since all imports are reported as being unused (and then become
